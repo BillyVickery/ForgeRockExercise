@@ -9,7 +9,7 @@ public class TrueOrFalsePredicate {
     public boolean trueOrFalse(String key, String value, Map<String, String> map){
         boolean trueOrFalse = false;
 
-        if(map.get(key) == value){
+        if(map.get(key).equals(value)){
             trueOrFalse = true;
         }
 

@@ -11,7 +11,6 @@ import java.util.Map;
  */
 public class Filter {
     private final List<Criterion> criteria = new ArrayList<>();
-    private final List<Filter> andFilters = new ArrayList<>();
 
     public boolean matches(final Map<String, String> resource) {
 
